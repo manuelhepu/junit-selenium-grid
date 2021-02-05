@@ -35,7 +35,7 @@ public class Robobar {
 
         //Configuration.startMaximized =true;
         //open("about:blank");
-        driver = new RemoteWebDriver(new URL("http://10.250.7.2:4444/wd/hub"), capabilities);
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
 
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
