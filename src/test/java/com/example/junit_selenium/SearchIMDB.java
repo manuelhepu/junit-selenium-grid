@@ -53,15 +53,15 @@ public class SearchIMDB {
             TimeUnit.SECONDS.sleep(3);
         }catch (InterruptedException e){
             //handle the exception
-        }*/
+        }
 
         driver.findElement(By.id("suggestion-search")).sendKeys(Keys.ENTER);
         /*try{
             TimeUnit.SECONDS.sleep(3);
         }catch (InterruptedException e){
             //handle the exception
-        }*/
+        }
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-        driver.findElement(By.linkText("WandaVision")).click();
+        driver.findElement(By.linkText("WandaVision")).click();*/
     }
 }
